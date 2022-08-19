@@ -1,24 +1,13 @@
 section {
   color: white;
   font-size: 22px;
-  padding: 10px;
   font-family: "DynaPuff", cursive;
   margin: 0px;
   padding: 0px;
   border: 0px;
   cursor: pointer;
- display: flex;
+  display: flex;
  justify-content: center;
-}
-
-h6 {
-  padding-left: 5px;
-  margin: 0;
-  text-align: center;
-}
-
-hr {
-  width: 75%;
 }
 
 #first-con {
@@ -29,11 +18,89 @@ hr {
   min-width: 616px;
 }
 
-p {
+img {
+  padding-top: 55px;
+  width: 45%;
+}
+
+img:hover {
+  width: 55%;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
+
+#icon {
+  display: block;
+  padding: 5px;
+  min-width: 50px;
+  max-width: 50px;
+}
+
+#icon:hover {
+  min-width: 60px;
+  max-height: 60px;
+}
+
+/* tried to find a way to increase the height while maintaining space between the content */
+#headline {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  font-size: 27px;
+  /* position: absolute;
+  top: 120px;
+  font-size: 27px;
+  text-align: center; */
+}
+
+#headline:hover {
+  font-size: 30px;
+}
+
+h6 {
   padding-left: 5px;
   margin: 0;
-  font-size: 8px;
   text-align: center;
+}
+/* tired to center the line while having the width at 75% */
+hr {
+  width: 100%;
+  position: absolute; 
+  bottom: 100px; 
+}
+
+hr:hover {
+  border: solid 2px whitesmoke ;
+}
+
+p {
+  margin: 0;
+  font-size: 13px; 
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+  /* padding: 0 25% 0 25%; */
+}
+
+p:hover {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 20px; 
+  position: absolute; 
+  bottom: 150px;
+  padding-left: 15px;
+}
+
+.title:hover {
+  font-size: 22px;
 }
 
 #first {
@@ -41,20 +108,13 @@ p {
   display: inline-block;
   width: 33.3%;
   height: 500px;
-  transition: 0.5s;
+  transition: 0.7s;
   position: relative;
 }
 
 #first:hover {
   background-color: #3f4e4f;
-  transition: 0.5s;
-}
-
-
-
-#home {
-  position: absolute;
-  bottom: 50px;
+  transition: 0.7s;
 }
 
 #second {
@@ -62,12 +122,13 @@ p {
   display: inline-block;
   width: 33.3%;
   height: 500px;
-  transition: 0.5s;
+  transition: 0.7s;
+  position: relative;
 }
 
 #second:hover {
   background-color: #3f4e4f;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 #third {
@@ -75,12 +136,13 @@ p {
   display: inline-block;
   width: 33.3%;
   height: 500px;
-  transition: 0.5s;
+  transition: 0.7s;
+  position: relative;
 }
 
 #third:hover {
   background-color: #3f4e4f;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 #fourth {
@@ -88,12 +150,13 @@ p {
   display: inline-block;
   width: 33.3%;
   height: 500px;
-  transition: 0.5s;
+  transition: 0.7s;
+  position: relative;
 }
 
 #fourth:hover {
   background-color: #3f4e4f;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 #fifth {
@@ -101,12 +164,13 @@ p {
   display: inline-block;
   width: 33.3%;
   height: 500px;
-  transition: 0.5s;
+  transition: 0.7s;
+  position: relative;
 }
 
 #fifth:hover {
   background-color: #3f4e4f;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 #sixth {
@@ -114,10 +178,12 @@ p {
   display: inline-block;
   width: 33.3%;
   height: 500px;
-  transition: 0.5s;
+  transition: 0.7s;
+  position: relative;
 }
 
 #sixth:hover {
   background-color: #3f4e4f;
-  transition: 0.5s;
+  transition: 0.7s;
+  position: relative;
 }
