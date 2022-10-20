@@ -51,7 +51,7 @@ img:hover {
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
-  font-size: 27px;
+  font-size: 22px;
   /* position: absolute;
   top: 120px;
   font-size: 27px;
@@ -59,7 +59,7 @@ img:hover {
 }
 
 #headline:hover {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 h6 {
@@ -74,9 +74,9 @@ hr {
   bottom: 100px; 
 }
 
-hr:hover {
+/* hr:hover {
   border: solid 2px whitesmoke ;
-}
+} */
 
 p {
   margin: 0;
@@ -99,9 +99,9 @@ p:hover {
   padding-left: 15px;
 }
 
-.title:hover {
+/* .title:hover {
   font-size: 22px;
-}
+} */
 
 #first {
   background-color: #0096ff; 
